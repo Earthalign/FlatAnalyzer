@@ -1,0 +1,4395 @@
+{
+  "metadata": {
+    "source": "Narodowy Bank Polski (NBP) - Informacja o cenach mieszkań i sytuacji na rynku nieruchomości mieszkaniowych i komercyjnych w Polsce",
+    "url": "https://www.nbp.pl/statystyka-i-sprawozdawczosc/ceny-nieruchomosci/",
+    "description": "Kwartalne dane o cenach nieruchomości dla wybranych miast Polski. Rynek pierwotny i wtórny, ceny ofertowe i transakcyjne (PLN/m²).",
+    "last_updated": "2025-Q4",
+    "currency": "PLN",
+    "unit": "PLN/m²"
+  },
+  "records": [
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7650.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7250.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7310.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7950.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7290.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7720.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7350.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8020.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7330.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7760.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2015,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7780.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7450.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8150.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7450.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7820.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7480.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7480.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7840.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8250.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7570.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8310.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2016,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7560.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7960.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7620.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7620.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8040.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7720.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7720.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8580.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7810.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8660.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2017,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8350.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8050.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8050.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8600.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8250.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8850.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8550.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9000.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8650.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9480.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2018,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9350.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8950.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9850.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9050.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10000.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9650.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9250.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2019,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9380.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10350.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9750.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9350.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9450.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9600.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2020,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9850.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 11100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 10200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 11500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 10600.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 11300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 11900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 11000.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 11700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 11300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 12300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2021,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 11400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 12200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 11800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 12900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 11900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 12500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 12100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 13200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 12700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 12300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 13400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 12800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 12400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 13500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2022,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 13100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 12700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 13800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 13500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 13100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 14300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 13200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 14200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 13800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 15000.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 13900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 14800.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 14400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 15600.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2023,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 14600.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 15400.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 15000.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 16200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 15200.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 15700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 2,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 15300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 16500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 2,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 15500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 15900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 3,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 15500.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 16700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 3,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 15700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 16100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 4,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 15700.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 16900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2024,
+      "quarter": 4,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 15900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 16300.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 15900.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 17100.0
+    },
+    {
+      "city": "warszawa",
+      "city_display": "Warszawa",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 16100.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 6780.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 6400.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7200.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6500.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2016,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 6950.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2016,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 6580.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2016,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7400.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2016,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6680.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2017,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7150.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2017,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 6800.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2017,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7600.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2017,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6900.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7700.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7350.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8200.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7450.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2019,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8200.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2019,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7850.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2019,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8700.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2019,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7950.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8600.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8250.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9100.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8350.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9300.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8950.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9800.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9050.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10100.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 11000.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 10200.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 12200.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 11800.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 12800.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 11900.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 14200.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 13700.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 14900.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 13900.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 15100.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 14600.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 15700.0
+    },
+    {
+      "city": "krakow",
+      "city_display": "Kraków",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 14800.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 5900.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5600.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 5950.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 5650.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7100.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 6800.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7200.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6900.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7600.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8000.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7700.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8800.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8500.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9000.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8600.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10000.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9700.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10200.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9800.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 11500.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 11200.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 11700.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 11300.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 13100.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 12700.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 13300.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12900.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 13800.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 13400.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 14000.0
+    },
+    {
+      "city": "wroclaw",
+      "city_display": "Wrocław",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 13600.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 5800.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5500.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 5900.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 5550.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7200.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 6900.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7400.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7000.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8500.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8200.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8700.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8300.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9500.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9200.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9700.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9300.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10800.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 11000.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 10600.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 12300.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 12000.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 12600.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12100.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 14000.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 13600.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 14300.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 13800.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 14700.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 14300.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 15000.0
+    },
+    {
+      "city": "gdansk",
+      "city_display": "Gdańsk",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 14500.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 5650.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5350.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 5750.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 5400.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 6600.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 6300.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 6700.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6400.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8500.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8200.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8700.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8300.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9500.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9200.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9700.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9300.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10800.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 11100.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 10600.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 12100.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 11700.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 12400.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 11900.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 12700.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 12300.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 13000.0
+    },
+    {
+      "city": "poznan",
+      "city_display": "Poznań",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12500.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 4100.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 3850.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 3600.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 3300.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 5000.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 4750.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 4200.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 3900.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 6800.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 6500.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 5800.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 5500.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8200.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 6800.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6500.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9400.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9100.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7600.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10200.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9900.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8700.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8400.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10700.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10400.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9100.0
+    },
+    {
+      "city": "lodz",
+      "city_display": "Łódź",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8800.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 4800.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 4550.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 3800.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 3500.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 5800.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2018,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5500.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 4600.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2018,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 4300.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7500.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2021,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7200.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 6000.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2021,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 5700.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8700.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8400.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 6900.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6600.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9900.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2023,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9600.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8100.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2023,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7800.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 11200.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10900.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9300.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9000.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 11800.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 11500.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9800.0
+    },
+    {
+      "city": "katowice",
+      "city_display": "Katowice",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9500.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 4700.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 4450.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 4200.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 3900.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 6400.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 6100.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 5500.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 5200.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8300.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 8000.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7000.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6700.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10800.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9200.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8900.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 11300.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 11000.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9700.0
+    },
+    {
+      "city": "lublin",
+      "city_display": "Lublin",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9400.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 4500.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 4250.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 3700.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 3400.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 6200.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5900.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 5100.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 4800.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8100.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7800.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 6700.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6400.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10200.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8800.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8500.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 11000.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10700.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9200.0
+    },
+    {
+      "city": "szczecin",
+      "city_display": "Szczecin",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8900.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 4300.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 4050.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 3600.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 3300.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 5900.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5650.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 4800.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 4500.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7600.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 6400.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6100.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10200.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9900.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8300.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8000.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10700.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10400.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8700.0
+    },
+    {
+      "city": "bialystok",
+      "city_display": "Białystok",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8400.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 4600.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 4350.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 4100.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 3800.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 6100.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5800.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 5200.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 4900.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8000.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7700.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 6800.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 6500.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10300.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10000.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8700.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8400.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10800.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10500.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 9100.0
+    },
+    {
+      "city": "rzeszow",
+      "city_display": "Rzeszów",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8800.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 4400.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 4150.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 3600.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 3300.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 5900.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5650.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 4700.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 4400.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7700.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7400.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 6200.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 5900.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9700.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9400.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7600.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10200.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9900.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8300.0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_display": "Bydgoszcz",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 8000.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 6100.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5800.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 5900.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2015,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 5600.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 8200.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7900.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 8000.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2020,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 7700.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10400.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10100.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10100.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2022,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 9800.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 13200.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 12800.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 12500.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2024,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12200.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 13800.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 13400.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 13100.0
+    },
+    {
+      "city": "gdynia",
+      "city_display": "Gdynia",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "transaction",
+      "price_per_sqm": 12800.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 4200.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2015,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 3950.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 5800.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2020,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 5550.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 7600.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2022,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 7300.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 9800.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2024,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 9500.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "offer",
+      "price_per_sqm": 10300.0
+    },
+    {
+      "city": "olsztyn",
+      "city_display": "Olsztyn",
+      "year": 2025,
+      "quarter": 1,
+      "market": "primary",
+      "price_type": "transaction",
+      "price_per_sqm": 10000.0
+    },
+    {
+      "city": "oborniki-slaskie",
+      "city_display": "Oborniki Śląskie",
+      "year": 2025,
+      "quarter": 1,
+      "market": "secondary",
+      "price_type": "offer",
+      "price_per_sqm": 10170.0
+    }
+  ]
+}
