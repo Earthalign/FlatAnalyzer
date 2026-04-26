@@ -2,6 +2,8 @@
 
 **An interactive application for analyzing real estate prices in Poland.**
 
+### 🚀 [Live Demo (GitHub Pages)](https://earthalign.github.io/FlatAnalyzer/)
+
 Browse historical and current apartment prices across major Polish cities.  
 Data Source: **National Bank of Poland (NBP)** – quarterly real estate price reports.
 
@@ -102,6 +104,8 @@ FlatAnalyzer/
 ## 🌐 Portfolio Demo (GitHub Pages)
 
 The `docs/` folder contains a fully standalone demo version (without the Python backend, using an embedded dataset) designed to be published directly via GitHub Pages.
+
+**🌐 Live Version:** [https://earthalign.github.io/FlatAnalyzer/](https://earthalign.github.io/FlatAnalyzer/)
 
 **To deploy:**
 1. Push the `docs/` folder to your GitHub repository.

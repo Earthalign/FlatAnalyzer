@@ -150,7 +150,14 @@ const StaticApi = {
     return { records };
   },
   getSummary(city, market='secondary', priceType='transaction') {
-    let recs = RAW.filter(r => r[0]===city && r[4]===market && r[5]===priceType);
+    let recs = RAW.filter(r => r[0]===city && r[4]===market);
+    // If specific priceType requested but not found, try to find ANY for that city/market
+    if (priceType && !recs.find(r => r[5] === priceType)) {
+      const availableTypes = [...new Set(recs.map(r => r[5]))];
+      if (availableTypes.length > 0) priceType = availableTypes[0];
+    }
+    recs = recs.filter(r => r[5] === priceType);
+    
     if (!recs.length) return null;
     recs = recs.sort((a,b) => a[2]-b[2]||a[3]-b[3]);
     const prices = recs.map(r=>r[6]);
@@ -246,6 +253,22 @@ document.addEventListener('DOMContentLoaded',()=>{
   renderCityGrid();
   setupInput();
 });
+
+function goHome() {
+  currentCity = null;
+  currentRecords = [];
+  currentSummary = null;
+  document.getElementById('cityInput').value = '';
+  setState('initial');
+  // Reset filters
+  state.market = 'secondary';
+  state.price_type = '';
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.classList.remove('active');
+    if (btn.dataset.filter === 'market' && btn.dataset.value === 'secondary') btn.classList.add('active');
+    if (btn.dataset.filter === 'price_type' && btn.dataset.value === '') btn.classList.add('active');
+  });
+}
 
 function populateYears(){
   const opts=`<option value="">All</option>`+
