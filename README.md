@@ -78,8 +78,10 @@ FlatAnalyzer/
 │       ├── api.js               # REST API Client
 │       ├── charts.js            # Chart.js visualization logic
 │       └── app.js               # Core frontend application logic
-└── static_demo/
-    └── index.html               # Standalone demo for GitHub Pages
+└── docs/
+    ├── index.html               # Standalone demo for GitHub Pages
+    ├── style.css
+    └── script.js
 ```
 
 ---
@@ -99,7 +101,13 @@ FlatAnalyzer/
 
 ## 🌐 Portfolio Demo (GitHub Pages)
 
-The `static_demo/index.html` file is a fully standalone demo version (without the Python backend, using an embedded dataset) ready to be published on GitHub Pages or any static hosting.
+The `docs/` folder contains a fully standalone demo version (without the Python backend, using an embedded dataset) designed to be published directly via GitHub Pages.
+
+**To deploy:**
+1. Push the `docs/` folder to your GitHub repository.
+2. Go to Repository Settings -> Pages.
+3. Select "Deploy from a branch", choose `main` branch and folder `/docs`.
+4. Your demo will be available at `https://your-username.github.io/FlatAnalyzer/`.
 
 ---
 

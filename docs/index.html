@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlatAnalyzer – Flat Prices in Poland | Portfolio Demo</title>
+  <meta name="description" content="Interactive analysis of real estate prices in Poland. NBP data — primary and secondary market, offer and transaction prices 2015–2025." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav-brand" href="#">
+    <div class="brand-icon">🏠</div>
+    FlatAnalyzer
+    <span class="nav-badge">Demo · NBP</span>
+  </a>
+  <div style="display:flex;gap:12px;align-items:center">
+    <a href="https://earthalign.github.io/witoldwluczkowski/portfolio.html" style="font-size:0.82rem;color:var(--text-secondary);text-decoration:none;font-weight:500" target="_blank">← Portfolio</a>
+    <a href="https://github.com/Earthalign/FlatAnalyzer" style="font-size:0.82rem;color:var(--accent-light);text-decoration:none;font-weight:600;background:rgba(99,102,241,0.1);border:1px solid rgba(99,102,241,0.2);padding:5px 12px;border-radius:99px" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+  </div>
+</nav>
+
+<div class="demo-banner">
+  <i class="fas fa-info-circle"></i>
+  <strong>Portfolio Demo</strong> — static data from NBP reports 2015–2025.
+  Full application version (Python/FastAPI): <a href="https://github.com/Earthalign/FlatAnalyzer" target="_blank">GitHub repo</a>
+</div>
+
+<header class="hero">
+  <div class="hero-eyebrow"><span class="dot"></span>NBP Data · 2015–2025</div>
+  <h1>Flat Prices<br/>in Poland</h1>
+  <p class="hero-sub">Browse historical and current real estate prices in Polish cities. Primary and secondary markets, offer and transaction prices.</p>
+</header>
+
+<div class="search-panel">
+  <div class="search-card">
+    <div class="search-row">
+      <div class="search-input-wrap">
+        <i class="fas fa-search"></i>
+        <input type="text" id="cityInput" placeholder="Enter city, e.g. Warsaw, Krakow, Gdansk..." autocomplete="off" />
+        <div class="autocomplete-list" id="autocompleteList"></div>
+      </div>
+      <button id="searchBtn" onclick="doSearch()"><i class="fas fa-chart-line"></i> Analyze</button>
+    </div>
+    <div class="filters-row">
+      <span class="filter-label">Market:</span>
+      <button class="filter-btn active" data-filter="market" data-value="secondary" onclick="setFilter('market','secondary',this)">Secondary</button>
+      <button class="filter-btn" data-filter="market" data-value="primary" onclick="setFilter('market','primary',this)">Primary</button>
+      <button class="filter-btn" data-filter="market" data-value="" onclick="setFilter('market','',this)">Both</button>
+      &nbsp;
+      <span class="filter-label">Price:</span>
+      <button class="filter-btn" data-filter="price_type" data-value="transaction" onclick="setFilter('price_type','transaction',this)">Transaction</button>
+      <button class="filter-btn" data-filter="price_type" data-value="offer" onclick="setFilter('price_type','offer',this)">Offer</button>
+      <button class="filter-btn active" data-filter="price_type" data-value="" onclick="setFilter('price_type','',this)">Both (Compare)</button>
+      <div class="year-range">
+        <span class="filter-label">From:</span>
+        <select class="year-select" id="yearFrom"></select>
+        <span class="filter-label">To:</span>
+        <select class="year-select" id="yearTo"></select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="main-content">
+  <div id="initialState" class="state-box">
+    <div class="state-icon">🗺️</div>
+    <h3>Select a city</h3>
+    <p>Click a city below or type a name in the search bar</p>
+    <div class="city-grid" id="cityGrid" style="margin-top:28px;max-width:650px;margin-left:auto;margin-right:auto"></div>
+    <div class="source-note" style="margin:14px auto 0;width:fit-content">
+      <i class="fas fa-info-circle"></i>Data: NBP — quarterly real estate price reports (PLN/m²)
+    </div>
+  </div>
+  <div id="loadingState" class="state-box" style="display:none">
+    <div class="spinner"></div><h3>Fetching data…</h3><p id="loadingCity"></p>
+  </div>
+  <div id="errorState" class="state-box" style="display:none">
+    <div class="state-icon">⚠️</div><h3 id="errorTitle"></h3><p id="errorMsg"></p>
+  </div>
+  <div id="resultsState" style="display:none">
+    <p class="section-title" id="resultsCityLabel"></p>
+    <div class="stats-grid" id="statsGrid">
+      <div class="stat-card"><div class="stat-icon purple"><i class="fas fa-tag"></i></div><div class="stat-label">Current price</div><div class="stat-value" id="statLatest">–</div><div class="stat-sub" id="statLatestPeriod"></div></div>
+      <div class="stat-card"><div class="stat-icon cyan"><i class="fas fa-chart-line"></i></div><div class="stat-label">YoY Change</div><div class="stat-value" id="statYoy">–</div><div id="statYoyBadge"></div></div>
+      <div class="stat-card"><div class="stat-icon green"><i class="fas fa-arrow-down"></i></div><div class="stat-label">Minimum</div><div class="stat-value" id="statMin">–</div></div>
+      <div class="stat-card"><div class="stat-icon amber"><i class="fas fa-arrow-up"></i></div><div class="stat-label">Maximum</div><div class="stat-value" id="statMax">–</div></div>
+    </div>
+    <div class="chart-section" id="chartSection">
+      <div class="chart-header">
+        <div><div class="chart-title" id="chartTitle">Price trend</div><div class="chart-subtitle" id="chartSubtitle"></div></div>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+          <div class="chart-tabs">
+            <button class="chart-tab active" onclick="switchChartType('line',this)">Line</button>
+            <button class="chart-tab" onclick="switchChartType('bar',this)">Bars</button>
+          </div>
+          <div class="chart-legend" id="chartLegend"></div>
+        </div>
+      </div>
+      <div class="chart-canvas-wrap"><canvas id="priceChart"></canvas></div>
+    </div>
+    <div class="table-section" id="tableSection">
+      <div class="table-header">
+        <div><div class="chart-title">Quarterly data</div><div class="chart-subtitle" id="tableSubtitle"></div></div>
+        <span class="source-note"><i class="fas fa-database"></i>Source: NBP</span>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>Year</th><th>Q.</th><th>Market</th><th>Type</th><th>PLN/m²</th><th>QoQ Change</th></tr></thead><tbody id="tableBody"></tbody></table></div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div>Data: <a href="https://www.nbp.pl" target="_blank">NBP</a> — quarterly real estate price reports | PLN/m²</div>
+  <div class="footer-row">
+    <span>© 2025 Witold Wluczkowski</span>
+    <a href="https://earthalign.github.io/witoldwluczkowski/portfolio.html">Portfolio</a>
+    <a href="https://github.com/Earthalign/FlatAnalyzer" target="_blank">Source code</a>
+    <a href="https://www.linkedin.com/in/witold-w%C5%82uczkowski-7b19491b9/" target="_blank">LinkedIn</a>
+  </div>
+</footer>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
