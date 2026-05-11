@@ -6,6 +6,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
 from app.config import settings
+from app.services.data_parser import DataParser
 from .routers import prices, cities
 
 logging.basicConfig(
@@ -31,6 +32,11 @@ app.add_middleware(
 @app.on_event("startup")
 async def startup_event():
     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
+    # Initialize parser and load data
+    parser = DataParser(settings.static_data_path)
+    parser.load()
+    app.state.parser = parser
+    logger.info(f"FlatAnalyzer ready. Loaded {len(parser.records)} price records.")
 
 app.include_router(cities.router, prefix="/api/cities", tags=["cities"])
 app.include_router(prices.router, prefix="/api/prices", tags=["prices"])

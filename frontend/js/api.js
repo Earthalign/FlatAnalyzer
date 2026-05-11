@@ -3,7 +3,7 @@
  * Handles all communication with the FastAPI backend.
  */
 
-const BASE_URL = 'https://flatanalyzer.onrender.com';
+const BASE_URL = window.location.origin;
 
 const Api = {
   /**
