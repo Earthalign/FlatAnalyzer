@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
-from .api.endpoints import prices, cities
+from .routers import prices, cities
 
 logging.basicConfig(
     level=logging.INFO,
