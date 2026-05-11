@@ -10,8 +10,7 @@ const Api = {
    * Fetch all available cities.
    */
   async getCities() {
-    // Usunięto końcowy slash, aby pasował do standardu FastAPI routera
-    const res = await fetch(`${BASE_URL}/api/cities`);
+    const res = await fetch(`${BASE_URL}/api/cities/`);
     if (!res.ok) throw new Error(`Cities fetch failed: ${res.status}`);
     const data = await res.json();
     return data.cities || [];
@@ -27,7 +26,7 @@ const Api = {
     if (opts.year_from) params.set('year_from', opts.year_from);
     if (opts.year_to) params.set('year_to', opts.year_to);
 
-    const res = await fetch(`${BASE_URL}/api/prices?${params}`);
+    const res = await fetch(`${BASE_URL}/api/prices/?${params}`);
     if (res.status === 404) {
       const err = await res.json();
       throw new NotFoundError(err.detail || 'Nie znaleziono danych dla tego miasta.');
@@ -44,7 +43,7 @@ const Api = {
    */
   async getSummary(city, market = 'secondary', priceType = 'transaction') {
     const params = new URLSearchParams({ city, market, price_type: priceType });
-    const res = await fetch(`${BASE_URL}/api/prices/summary?${params}`);
+    const res = await fetch(`${BASE_URL}/api/prices/summary/?${params}`);
     if (res.status === 404) return null;
     if (!res.ok) throw new Error(`Summary fetch failed: ${res.status}`);
     return res.json();
@@ -55,7 +54,7 @@ const Api = {
    */
   async compare(cityA, cityB, market = 'secondary', priceType = 'transaction') {
     const params = new URLSearchParams({ city_a: cityA, city_b: cityB, market, price_type: priceType });
-    const res = await fetch(`${BASE_URL}/api/prices/compare?${params}`);
+    const res = await fetch(`${BASE_URL}/api/prices/compare/?${params}`);
     if (!res.ok) {
       const err = await res.json();
       throw new Error(err.detail || `Compare failed: ${res.status}`);

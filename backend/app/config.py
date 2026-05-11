@@ -26,7 +26,6 @@ class Settings(BaseSettings):
     cache_ttl_hours: int = 24
     db_file: str = "flatanalyzer.db"
 
-    # CORS
     allowed_origins: list[str] = [
         "https://earthalign.github.io",
         "https://earthalign.github.io/FlatAnalyzer"
