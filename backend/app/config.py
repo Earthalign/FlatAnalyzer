@@ -4,7 +4,7 @@ Uses pydantic-settings for environment-based configuration.
 """
 
 from pathlib import Path
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     db_file: str = "flatanalyzer.db"
 
     # CORS
-    allowed_origins = ["https://earthalign.github.io"]
+    allowed_origins: list[str] = ['https://earthalign.github.io']
 
     @property
     def db_path(self) -> Path:
@@ -37,7 +37,7 @@ class Settings(BaseSettings):
     def static_data_path(self) -> Path:
         return self.data_dir / "nbp_prices_dataset.json"
 
-    model_config = {"env_prefix": "FLAT_"}
+    model_config = SettingsConfigDict(env_prefix="FLAT_")
 
 
 settings = Settings()
