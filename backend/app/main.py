@@ -19,21 +19,12 @@ from app.config import settings
 from app.routers import cities, prices
 from app.services.cache_service import CacheService
 from app.services.data_parser import DataParser
-from fastapi.middleware.cors import CORSMiddleware
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
 logger = logging.getLogger(__name__)
-
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["https://earthalign.github.io"],
-    allow_methods=["GET"],
-    allow_headers=["*"],
-)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
