@@ -3,7 +3,7 @@
  * Handles all communication with the FastAPI backend.
  */
 
-const BASE_URL = '';  // Empty = same origin (served by FastAPI)
+const BASE_URL = 'https://flat-analyzer-api.onrender.com';
 
 const Api = {
   /**
@@ -25,10 +25,10 @@ const Api = {
    */
   async getPrices(city, opts = {}) {
     const params = new URLSearchParams({ city });
-    if (opts.market)     params.set('market',     opts.market);
+    if (opts.market) params.set('market', opts.market);
     if (opts.price_type) params.set('price_type', opts.price_type);
-    if (opts.year_from)  params.set('year_from',  opts.year_from);
-    if (opts.year_to)    params.set('year_to',    opts.year_to);
+    if (opts.year_from) params.set('year_from', opts.year_from);
+    if (opts.year_to) params.set('year_to', opts.year_to);
 
     const res = await fetch(`${BASE_URL}/api/prices/?${params}`);
     if (res.status === 404) {
