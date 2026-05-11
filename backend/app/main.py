@@ -64,9 +64,9 @@ def create_app() -> FastAPI:
     # CORS – allow all origins for portfolio demo
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=settings.allowed_origins,
-        allow_credentials=False,
-        allow_methods=["GET"],
+        allow_origins=settings.allowed_origins,  
+        allow_credentials=True,
+        allow_methods=["*"],
         allow_headers=["*"],
     )
 

@@ -27,7 +27,10 @@ class Settings(BaseSettings):
     db_file: str = "flatanalyzer.db"
 
     # CORS
-    allowed_origins: list[str] = ['https://earthalign.github.io']
+    allowed_origins: list[str] = [
+        "https://earthalign.github.io",
+        "https://earthalign.github.io/FlatAnalyzer"
+    ]
 
     @property
     def db_path(self) -> Path:
