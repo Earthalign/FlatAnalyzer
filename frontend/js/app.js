@@ -228,7 +228,7 @@ function renderResults(records, summary, cityDisplay) {
 }
 
 function renderStats(summary) {
-  if (!summary) {
+  if (!summary || summary.latest_price == null) {
     ['statLatest', 'statYoy', 'statMin', 'statMax'].forEach(id => {
       document.getElementById(id).textContent = '–';
     });
@@ -284,13 +284,18 @@ function renderTable(records) {
 
   // Calculate q/q change
   const withChange = records.map((r, i) => {
-    const prev = records.slice(0, i).reverse().find(
-      p => p.market === r.market && p.price_type === r.price_type && (
-        (r.year === p.year && r.quarter === p.quarter + 1) ||
-        (r.year === p.year + 1 && r.quarter === 1 && p.quarter === 4)
-      )
-    );
-    const change = prev ? ((r.price_per_sqm - prev.price_per_sqm) / prev.price_per_sqm * 100) : null;
+    let prev = null;
+    for (let j = i - 1; j >= 0; j--) {
+      const p = records[j];
+      if (p.market === r.market && p.price_type === r.price_type) {
+        if ((r.year === p.year && r.quarter === p.quarter + 1) ||
+            (r.year === p.year + 1 && r.quarter === 1 && p.quarter === 4)) {
+          prev = p;
+          break;
+        }
+      }
+    }
+    const change = prev && prev.price_per_sqm > 0 ? ((r.price_per_sqm - prev.price_per_sqm) / prev.price_per_sqm * 100) : null;
     return { ...r, qoq: change };
   });
 
@@ -339,11 +344,11 @@ async function doCompare() {
 
     const diff     = data.difference_pln;
     const diffPct  = data.difference_pct;
-    const diffSign = diff > 0 ? 'pos' : 'neg';
-    const diffIcon = diff > 0 ? '▲' : '▼';
+    const diffSign = diff > 0 ? 'pos' : diff < 0 ? 'neg' : '';
+    const diffIcon = diff > 0 ? '▲' : diff < 0 ? '▼' : '';
 
-    const cityADisplay = state.cities.find(c => c.slug === cityA)?.display || cityA;
-    const cityBDisplay = state.cities.find(c => c.slug === cityB)?.display || cityB;
+    const cityADisplay = data.city_a.city_display || cityA;
+    const cityBDisplay = data.city_b.city_display || cityB;
 
     resultEl.innerHTML = `
       <div class="compare-result">
@@ -439,7 +444,7 @@ function renderResults(records, summary, cityDisplay) {
   showState('results');
   document.getElementById('searchBtn').disabled = false;
 
-  const city = summary ? summary.city_display : cityDisplay;
+  const city = summary && summary.city_display ? summary.city_display : cityDisplay;
   document.getElementById('resultsCityLabel').textContent =
     `📍 ${city} — ${records.length} records kwartalnych`;
 
@@ -448,10 +453,11 @@ function renderResults(records, summary, cityDisplay) {
   renderTable(records);
 
   setTimeout(() => {
-    document.getElementById('statsGrid').classList.add('visible');
-    document.getElementById('chartSection').classList.add('visible');
-    document.getElementById('tableSection').classList.add('visible');
-    document.getElementById('compareSection').classList.add('visible');
+    const ids = ['statsGrid', 'chartSection', 'tableSection', 'compareSection'];
+    ids.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.classList.add('visible');
+    });
   }, 50);
 }
 
