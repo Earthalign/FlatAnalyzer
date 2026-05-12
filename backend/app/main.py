@@ -18,7 +18,9 @@ logger = logging.getLogger(__name__)
 app = FastAPI(
     title=settings.app_name,
     version=settings.app_version,
-    debug=settings.debug
+    debug=settings.debug,
+    docs_url="/api/docs",
+    openapi_url="/api/openapi.json"
 )
 
 app.add_middleware(
@@ -38,8 +40,8 @@ async def startup_event():
     app.state.parser = parser
     logger.info(f"FlatAnalyzer ready. Loaded {len(parser.records)} price records.")
 
-app.include_router(cities.router, prefix="/api/cities", tags=["cities"])
-app.include_router(prices.router, prefix="/api/prices", tags=["prices"])
+app.include_router(cities.router)
+app.include_router(prices.router)
 
 frontend_dir = Path(__file__).parent.parent.parent / "frontend"
 

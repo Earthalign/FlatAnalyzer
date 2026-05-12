@@ -43,7 +43,7 @@ const Api = {
    */
   async getSummary(city, market = 'secondary', priceType = 'transaction') {
     const params = new URLSearchParams({ city, market, price_type: priceType });
-    const res = await fetch(`${BASE_URL}/api/prices/summary/?${params}`);
+    const res = await fetch(`${BASE_URL}/api/prices/summary?${params}`);
     if (res.status === 404) return null;
     if (!res.ok) throw new Error(`Summary fetch failed: ${res.status}`);
     return res.json();
@@ -54,7 +54,7 @@ const Api = {
    */
   async compare(cityA, cityB, market = 'secondary', priceType = 'transaction') {
     const params = new URLSearchParams({ city_a: cityA, city_b: cityB, market, price_type: priceType });
-    const res = await fetch(`${BASE_URL}/api/prices/compare/?${params}`);
+    const res = await fetch(`${BASE_URL}/api/prices/compare?${params}`);
     if (!res.ok) {
       const err = await res.json();
       throw new Error(err.detail || `Compare failed: ${res.status}`);
